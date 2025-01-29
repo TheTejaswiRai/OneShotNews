@@ -153,3 +153,20 @@ main {
 .news-source {
     margin-block: 12px;
 }
+@media (max-width: 768px) {
+    .cards-container {
+        
+        width: 80%;
+    }
+    .nav-links {
+        display: none;
+    }
+    .company-logo
+    {
+        width: 40%;
+    }
+    #search-text{
+        width: 50%;
+    }
+
+}
